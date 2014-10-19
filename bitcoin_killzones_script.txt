@@ -1,21 +1,9 @@
-// Created by https://www.tradingview.com/u/oscarvs @ 12 October 2014 | @theoscarvs
+// Created by https://www.tradingview.com/u/oscarvs @ 18 October 2014 | @theoscarvs
 // Inspired by @ICT_MHuddleston concepts and @CRInvestor courses, code based on @ChrisMoody scripts
-// https://gist.github.com/oscarvs/f05612579c9a174e8d5b
+// https://github.com/oscarvs/bitcoin-killzones
 // Time sessions are directly sync from exchange/tv data (Change manually if you need to adjust DST Daylight saving time)
 
-// TODO:
-// - do forex version an publish it before maybe to test real time error?
-// - add sources of reference like perm on imgur of ict chart, forum, etc
-// - write a short description how to use as reference, etc
-// - create maybe a github repository for better sharing/maintenance
-// - hide headers before publish it
-// - change to version v2 and remove BETA word
-// - add warning when publish it:
-//      - only works for bitcoin default
-//      - individual KillZone can be selected from menu
-//      - There is another version ready for Forex
-
-study(title="Bitcoin Kill Zones BETA v1.9 [oscarvs]",shorttitle="Bitcoin Kill Zones BETA v1.9", overlay=true)
+study(title="Bitcoin Kill Zones v2 [oscarvs]",shorttitle="Bitcoin Kill Zones v2", overlay=true)
 timeinrange(res, sess) => time(res, sess) != 0
 
 // **** Checkboxes and custom Session
